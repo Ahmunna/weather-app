@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" id="main">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Weather App</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+        
+     
+    <body onload="init()">
+      <h1 id="title"></h1>
+        <h1 id="city"></h1> 
+        <h2 id ="time"></h2>
+        <div id="A">
+            <h1 id="temperature"></h1>
+            <span>&emsp;</span>
+            <img  id="weather_status">
+        </div>
+        <div id="container">
+            <div id="wind" class="flex">
+                <img id="wind_pic" class="image">
+                <p id="wind_val"></p>
+            </div>
+            <div id="high_temp" class="flex">
+                <img id="high_pic" class="image">
+                <p id="high_val"></p>
+            </div>
+            <div id="low_temp" class="flex">
+                <img id="low_pic" class="image">
+                <p id="low_val"></p>
+            </div>
+            <div id="clouds" class="flex">
+                <img id="cloud_pic" class="image" >
+                <p id="cloud_val"></p>
+            </div>
+        </div>
+    </body>
+    
+    </html>
